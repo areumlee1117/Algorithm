@@ -5,12 +5,5 @@
 function solution(s) {
   let num = parseInt(s);
 
-  if ((s.length === 4 || s.length === 6) && s == num) {
-    num = true;
-  } else {
-    num = false;
-  }
-  return num;
+  return (s.length === 4 || s.length === 6) && s == num ? true : false;
 }
-
-    
